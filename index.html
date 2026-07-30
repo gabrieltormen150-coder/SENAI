@@ -1,22 +1,31 @@
- <!DOCTYPE html>
- <html>
-    <head>
-        <title> pagina SENAI Gabriel  ]  </title>
+<!DOCTYPE html>
+<head>
+    <title>Página SENAI - gabriel</title>
+    
+</head>
+<body>
 
-    </head>
-    <body>
-        <div class="card">
-            <h1>SENAI</h1>
-            <p>página simples combinando HTML, CSS e javaScript.</p>
-            <div class="contador" id="numero-contador">0</div>
-            <button id="botao-clique">clique aqui</button>
-            </div>
-            <script>
-                const btn = document.getElementById("botao-clique");
-                const num = document.getElementById("numero-contador");
-                let c = 0;
-                btn.addEventlistener("click",() => num.textContent = ++c);
-            </script>
+   
+    <div class="card">
+        <h1>SENAI</h1> 
+        <p>Página simples combinando HTML, CSS e JavaScript.</p> 
+        <div class="contador" id="numero-contador">0</div> 
+        <button id="botao-clique">Clique Aqui!</button> 
+    </div> 
 
-    </body>
- </html>
+    <script>
+        
+        const btn = document.getElementById('botao-clique');
+        
+        
+        const num = document.getElementById('numero-contador');
+        
+        
+        let c = 0;
+        
+        1 em 'c' e atualiza a tela
+        btn.addEventListener('click', () => num.textContent = ++c);
+    </script>
+
+</body>
+</html>
